@@ -1,0 +1,6 @@
+<Alloy>
+	    <View height="Ti.UI.SIZE" layout="vertical">
+			<TextField id="main" onChange="onChange" onBlur="onBlur" ></TextField>	
+			<View height=1 backgroundColor="#eee"></View>
+		</View>
+</Alloy>

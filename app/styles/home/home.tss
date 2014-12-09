@@ -1,0 +1,45 @@
+"#manage_header":{
+	color:"#cecece",left:0,
+	shadowColor: '#fff',
+  	shadowOffset: {x:1, y:1},
+  	shadowRadius: 3,
+	font:{
+		fontSize: 24
+	}
+}
+
+"#manage":{
+	top:5,bottom:5,
+	height:Ti.UI.SIZE,
+	borderRadius:4,
+	backgroundColor:"#fff",
+	layout:"vertical"
+}
+
+".manage_item":{
+	left:10,right:10,top:5,bottom:5,
+	height:Ti.UI.SIZE,layout:"horizontal"
+}
+
+"#manage_item_profile":{
+	top:10
+}
+
+"#manage_item_team":{
+	bottom:10
+}
+
+".manage_item_icon":{
+	borderRadius:4,
+	width:30,height:30,
+	backgroundColor:"#eee"
+}
+
+".manage_item_label":{
+	left:10,
+	height:Ti.UI.SIZE,
+	font:{
+		fontSize: 18,
+		color: "#1782e6"
+	}
+}

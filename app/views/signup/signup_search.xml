@@ -1,0 +1,15 @@
+<Alloy>
+	<Window  backgroundColor="#eee">
+		<Require type="view" src="components/ui/header" id="header" >
+	 			<View height="Ti.UI.SIZE" id="main" top="60" borderRadius="4" backgroundColor="#fff" layout="horizontal" width="600" >
+					<View height="Ti.UI.SIZE" width="500">
+						<Require type="view" src="components/ui/text_field" id="search" onChange="onChange" _hintText="search dealership" />
+					</View>
+					<View height="Ti.UI.SIZE" width="100" onClick="onSubmit">
+						<Label class="btn">search</Label>
+					</View>
+				</View>
+				<TableView id="results"></TableView>
+		</Require>
+	</Window>
+</Alloy>

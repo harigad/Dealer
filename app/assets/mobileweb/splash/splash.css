@@ -1,0 +1,60 @@
+#splash {
+	background: #eee;
+	background: -moz-linear-gradient(top,#eee 0%,#ccc 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#eee),color-stop(100%,#ccc));
+	background: -webkit-linear-gradient(top,#eee 0%,#ccc 100%);
+	background: -o-linear-gradient(top,#eee 0%,#ccc 100%);
+	background: -ms-linear-gradient(top,#eee 0%,#ccc 100%);
+	background: linear-gradient(top,#eee 0%,#ccc 100%);
+	-webkit-box-shadow: inset 0px 0px 15px 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 0px 15px 6px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 15px 6px rgba(0,0,0,0.5);
+	bottom: 0;
+	min-height: 300px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+#splash:before {
+	background: url(appc.png) no-repeat 0 0;
+	content: "";
+	height: 144px;
+	left: 50%;
+	margin-left: -85px;
+	position: absolute;
+	top: 22%;
+	width: 144px;
+}
+
+#splash:after {
+	background: url(titanium.png) no-repeat 0 0;
+	content: "";
+	height: 48px;
+	left: 50%;
+	margin-left: -105px;
+	position: absolute;
+	bottom: 15%;
+	width: 200px;
+}
+
+@media all and (max-height: 320px) {
+	#splash:before {
+		top: 15%;
+	}
+
+	#splash:after {
+		bottom: 12%;
+	}
+}
+
+@media all and (min-height: 699px) {
+	#splash:before {
+		top: 25%;
+	}
+
+	#splash:after {
+		bottom: 25%;
+	}
+}

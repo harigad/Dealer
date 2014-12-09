@@ -1,0 +1,33 @@
+"#logo":{
+	width:115,height:40,top:10,left:0,right:0,
+	backgroundImage:"common/left_arrow_40_115.png"
+}
+
+"#logout":{
+	color:"#666",
+	shadowColor: '#888',
+  	shadowOffset: {x:1, y:1},
+  	shadowRadius: 3
+}
+
+
+".title":{
+	left:10,
+	top:10,bottom:10,
+	height:40,
+	color:"#e1e1e1",
+	font:{
+		fontSize:24
+	}
+}
+
+"#title":{
+	color:"#666",
+	shadowColor: '#888',
+  	shadowOffset: {x:1, y:1},
+  	shadowRadius: 3
+}
+
+"#right_buttons":{
+	visible:false
+}

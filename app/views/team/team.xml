@@ -1,0 +1,15 @@
+<Alloy>
+	<Window  backgroundColor="#eee">
+		<Require type="view" src="components/ui/header" id="header" >
+				<Label class="header" >ADD TEAMMATE</Label>
+	 			<View height="Ti.UI.SIZE" id="main" top="5" bottom="5" borderRadius="4" backgroundColor="#fff" layout="vertical"  >
+					<Require type="view" src="components/ui/text_field" id="name" _hintText="teammate's name" />
+					<Require type="view" src="components/ui/text_field" id="mobile" _hintText="mobile phone number" />
+					<Label class="btn" id="btn" onClick="add" >ADD</Label>
+				</View>
+				<Label class="header" >TEAMMATES</Label>
+				<View height="Ti.UI.SIZE" id="teammates" top="5" layout="vertical"  >
+				</View>
+		</Require>
+	</Window>
+</Alloy>

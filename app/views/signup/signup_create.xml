@@ -1,0 +1,13 @@
+<Alloy>
+	<Window  backgroundColor="#eee">
+		<Require type="view" src="components/ui/header" id="header" >
+				<View height="Ti.UI.SIZE" id="main" top="50" borderRadius="4" backgroundColor="#fff" layout="vertical" width="600" >
+					<Require type="view" src="components/ui/text_field" id="name" _hintText="your first and last name" />
+					<Require type="view" src="components/ui/text_field" id="username" _hintText="your mobile phone number" />
+					<Require type="view" src="components/ui/text_field" id="pass" _hintText="password" passwordMask="true" />
+					<Require type="view" src="components/ui/text_field" id="confirm_password" _hintText="confirm password" passwordMask="true" />
+				<Label class="btn"  id="login_btn" onClick="create" >JOIN</Label>
+				</View>
+		</Require>
+	</Window>
+</Alloy>

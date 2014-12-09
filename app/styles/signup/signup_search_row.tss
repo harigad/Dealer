@@ -1,0 +1,13 @@
+"#title":{
+	top:10,
+	color:"#999",
+	font:{
+		fontSize:18
+	},left:10
+}
+"#address":{
+	color:"#aaa",
+	font:{
+		fontSize:14
+	},left:10
+}

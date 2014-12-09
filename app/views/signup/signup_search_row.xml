@@ -1,0 +1,6 @@
+<Alloy>
+	<TableViewRow layout="vertical" onClick="onClick">
+		<Label id="title"></Label>
+		<Label id="address"></Label>
+	</TableViewRow>
+</Alloy>

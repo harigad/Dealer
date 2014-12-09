@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Pie Chart</title>
+		<script src="Chart.js"></script>
+		<script>
+		var Ti = window.parent.Ti;
+			function _draw(target,data){
+				var ctx = document.getElementById("chart-area").getContext("2d");
+				window.myPie = new Chart(ctx).Pie(data);
+				
+				document.getElementById("chart-area").onclick = function(evt){
+					var activePoints = window.myPie.getSegmentsAtEvent(evt);
+					Ti.App.fireEvent("launchWindow",{target:target,data:activePoints[0]});
+				};
+				
+			}
+		</script>
+	</head>
+	<body>
+		<div id="canvas-holder" >
+			<canvas id="chart-area" width="300" height="300"  ></canvas>
+		</div>
+	</body>
+</html>

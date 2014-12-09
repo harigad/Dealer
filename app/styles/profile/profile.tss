@@ -1,0 +1,18 @@
+".btn":{
+	width:Ti.UI.FILL,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color:"#fff",
+	backgroundColor:"#1782e6",
+	height:50
+}
+
+
+".header":{
+	color:"#cecece",left:0,
+	shadowColor: '#fff',
+  	shadowOffset: {x:1, y:1},
+  	shadowRadius: 3,
+	font:{
+		fontSize: 24
+	}
+}

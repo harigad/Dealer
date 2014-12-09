@@ -1,0 +1,21 @@
+".btn":{
+	width:Ti.UI.FILL,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color:"#fff",
+	backgroundColor:"#1782e6",
+	height:50
+}
+
+"#join":{
+	top:60,
+	width:130,
+	borderRadius:4
+}
+
+".or":{
+	top:30,
+	font:{
+		fontSize:36
+	},
+	color:"#aaa"
+}

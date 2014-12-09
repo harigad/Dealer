@@ -1,0 +1,14 @@
+<Alloy>
+	<Window  backgroundColor="#eee">
+		<Require type="view" src="components/ui/header" id="header" >
+				<Label  class="btn" id="join" onClick="goToSignup">sign up</Label>
+				<Label class="or"   >or</Label>
+				<View height="Ti.UI.SIZE" id="main" top="30" borderRadius="4" backgroundColor="#fff" layout="vertical" width="300" >
+					<Require type="view" src="components/ui/text_field" id="username" _hintText="mobile phone number" />
+					<Require type="view" src="components/ui/text_field" id="password" _hintText="password" passwordMask="true" />
+					
+				<Label class="btn"  id="login_btn" onClick="getAccess" >login</Label>
+				</View>
+		</Require>
+	</Window>
+</Alloy>

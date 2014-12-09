@@ -1,0 +1,11 @@
+<Alloy>
+	<View layout="vertical" top="5" bottom="5" height="Ti.UI.SIZE" >
+	<Label id="title" >SUMMARY</Label>
+	<View backgroundColor="#fff" borderRadius="4" top="5" bottom="5" height="Ti.UI.SIZE" layout="horizontal" > 
+			<WebView  id="main" url="chartjs/pie.html" left="10" top="10" bottom="10" height="300" width="300" onLoad="_onLoad" ></WebView>
+			<TableView id="legend" width="200" height="300" left="50" top="10" >
+					
+			</TableView>	
+	</View>
+	</View>
+</Alloy>

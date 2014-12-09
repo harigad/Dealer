@@ -1,0 +1,8 @@
+<Alloy>
+	<Window  backgroundColor="#eee">
+		<Require type="view" src="components/ui/header" id="header" >
+	 		<Require type="view" src="components/chart/chart" id="cars" _title="AUTO MODELS" _target="charts/chart_car" />
+			<Require type="view" src="components/chart/chart" id="team"  _title="TEAMMATES" _target="charts/chart_teammate" />
+		</Require>
+	</Window>
+</Alloy>

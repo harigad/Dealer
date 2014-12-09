@@ -1,0 +1,13 @@
+"#title":{
+	color:"#cecece",left:0,
+	shadowColor: '#fff',
+  	shadowOffset: {x:1, y:1},
+  	shadowRadius: 3,
+	font:{
+		fontSize: 24
+	}
+}
+
+"#legend": {
+	separatorStyle: Titanium.UI.MobileWeb.NONE
+}

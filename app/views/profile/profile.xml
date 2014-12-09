@@ -1,0 +1,14 @@
+<Alloy>
+	<Window  backgroundColor="#eee">
+		<Require type="view" src="components/ui/header" id="header" >
+				<Label class="header" >EDIT PROFILE</Label>
+	 			<View height="Ti.UI.SIZE" id="main" top="5" borderRadius="4" backgroundColor="#fff" layout="vertical"  >
+					<Require type="view" src="components/ui/text_field" id="name" _hintText="Dealership's name" />
+					<Require type="view" src="components/ui/text_field" id="address" _hintText="address" />
+					<Require type="view" src="components/ui/text_field" id="phone" _hintText="phone" />
+					<Require type="view" src="components/ui/text_field" id="web" _hintText="website" />
+					<Label class="btn" id="btn" onClick="update" >update</Label>
+				</View>
+		</Require>
+	</Window>
+</Alloy>

@@ -1,0 +1,5 @@
+<Alloy>
+	<Window  backgroundColor="#eee" >
+	 	<Require src="home/home" id="home" ></Require>
+	</Window>
+</Alloy>

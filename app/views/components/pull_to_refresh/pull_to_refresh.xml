@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="main" height="120" backgroundColor="#ffa633" width="Ti.UI.FILL" top="0" left="0">
+		<Label id="txt" color="#fff" bottom="10" >pull to refresh</Label>
+	</View>
+</Alloy>

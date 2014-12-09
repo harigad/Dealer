@@ -1,0 +1,5 @@
+"TextField":{
+	color:"#999",left:10,right:10,top:0,bottom:2,
+	font:{fontSize:20},height:50,
+	borderStyle:Ti.UI.INPUT_BORDERSTYLE_NONE
+}

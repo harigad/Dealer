@@ -1,0 +1,17 @@
+<Alloy>
+	<Require type="view" src="components/ui/header" id="header" >
+		<Label id="manage_header">MANAGE</Label>
+		<View id="manage"  layout="vertical" height="Ti.UI.SIZE" >
+			<View class="manage_item" id="manage_item_profile" onClick="launchProfile">
+				<View class="manage_item_icon" ></View>
+				<Label class="manage_item_label">Dealership Profile</Label>
+			</View>
+			<View height="1" backgroundColor="#eee"></View>
+			<View class="manage_item" id="manage_item_team" onClick="launchTeam" >
+				<View class="manage_item_icon" ></View>
+				<Label class="manage_item_label">Dealership Team</Label>
+			</View>
+		</View>
+		<Require type="view" src="components/chart/chart" id="all" _title="TEST DRIVES" _target="charts/chart_groups" />
+	</Require>
+</Alloy>
