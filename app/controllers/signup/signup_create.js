@@ -3,7 +3,7 @@ $.header.setTitle(args._data.name);
 $.header.open($.signup_create);
 
 function create(){
-	var name = $.name.getVal();
+	var name = $.name.getValue();
 	var username = $.username.getValue();
 	var pass = $.pass.getValue();
 	var confirm_password = $.confirm_password.getValue();

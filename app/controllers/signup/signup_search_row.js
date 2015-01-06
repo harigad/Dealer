@@ -5,6 +5,5 @@ $.title.setText(_data.name);
 $.address.setText(_data.formatted_address);
 
 function onClick(){
-	debugger;
 	args._callBack(_data);
 }

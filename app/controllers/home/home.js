@@ -36,7 +36,9 @@ function load(){
 }	
 	
 function draw(_data){
-			var data = [
+	var data;
+		
+			data = [
 				{
 					value: parseInt(_data.sent),
 					color:"#F7464A",
@@ -59,9 +61,20 @@ function draw(_data){
 					value: parseInt(_data.viewed),
 					color: "#949FB1",
 					highlight: "#A8B3C5",
-					label: "CLICKED FB POST"
+					label: "CLICKED POST ON FB"
 				}
 			];
+			
+			if(!_data.sent || _data.sent == 0 || _data.sent == "0"){
+				data.unshift({
+					value: 1,
+					color:"#aaa",
+					highlight: "#FF5A5E",
+					label: "NO DATA YET"
+					}
+				);
+			}
+			
 			$.all.setData(data);
 }
 

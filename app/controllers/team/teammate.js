@@ -2,7 +2,7 @@
 	var _remove = args._remove || {};
 
 $.name.setText(args._data.name);
-$.mobile.setText(args._data.mobile);
+$.mobile.setText(format_phone(args._data.mobile));
 
 if(args.hideRemove){
 	$.remove.hide();
@@ -21,6 +21,9 @@ function remove(){
      dialog.close();	
     }
    });
-  	
   dialog.show();
+}
+
+function format_phone(phone){
+ 	return phone.replace(/(\d{3})(\d{3})(\d{4})/, '($1)-$2-$3');
 }

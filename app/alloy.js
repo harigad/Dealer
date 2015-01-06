@@ -8,5 +8,7 @@
 // accessible globally by attaching them to the `Alloy.Globals`
 // object. For example:
 //
-// Alloy.Globals.someGlobalFunction = function(){};
+Alloy.Globals.someGlobalFunction = function(){};
+
+//Alloy.Globals.dom = "../services/";
 Alloy.Globals.dom = "http://localhost/dealer_services/";

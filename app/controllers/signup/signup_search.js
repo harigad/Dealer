@@ -57,7 +57,6 @@ function printResults(data){
 
 function openCreate(data){
 	Alloy.createController("signup/signup_create",{_data:data,_callBack:function(username,password){
-		debugger;
 		$.header.back();
 		args._callBack(username,password);
 	}
@@ -79,9 +78,9 @@ function onChange(e){
 		_searchTimer = null;
 	}
 	
-	if(e.value.length > 9){
+	if(e.value.length > 4){
 		_searchTimer = setTimeout(function(){
 		 search(e.value);
-		},500);
+		},50);
 	}
 }

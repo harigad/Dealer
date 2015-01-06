@@ -10,8 +10,8 @@ function add(){
 	var team = login.getTeam();
 	var name = $.name.getValue();
 	var mobile = $.mobile.getValue();
-	
-	if(isPhone(mobile) && name!==""){
+	mobile = isPhone(mobile);
+	if(mobile && name!==""){
 		for(var i=0;i<team.length;i++){
 			if(team[i].mobile == mobile){
 				error();
@@ -110,5 +110,9 @@ $.main.animate(animation);
 function isPhone(p) {
   var phoneRe = /^[2-9]\d{2}[2-9]\d{2}\d{4}$/;
   var digits = p.replace(/\D/g, "");
-  return (digits.match(phoneRe) !== null);
+  	if(digits.match(phoneRe)){
+  	   return digits;
+  	}else{
+  	   return false;
+  	} 
 }

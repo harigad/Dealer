@@ -12,6 +12,6 @@
 				<Label class="manage_item_label">Dealership Team</Label>
 			</View>
 		</View>
-		<Require type="view" src="components/chart/chart" id="all" _title="TEST DRIVES" _target="charts/chart_groups" />
+		<Require type="view" src="components/chart/chart" id="all" _title="Dashboard" _target="charts/chart_groups" />
 	</Require>
 </Alloy>
